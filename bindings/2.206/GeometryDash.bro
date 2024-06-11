@@ -9860,7 +9860,7 @@ class LevelEditorLayer : GJBaseGameLayer, LevelSettingsDelegate {
 	int getNextFreeEditorLayer(cocos2d::CCArray*);
 	TodoReturn getNextFreeEnterChannel(cocos2d::CCArray*);
 	TodoReturn getNextFreeGradientID(cocos2d::CCArray*);
-	int getNextFreeGroupID(cocos2d::CCArray*) = win 0x2C6CB0;
+	int getNextFreeGroupID(cocos2d::CCArray*) = win 0x2C6CB0, m1 0xd37e0, imac 0xef5f0;
 	TodoReturn getNextFreeItemID(cocos2d::CCArray*);
 	TodoReturn getNextFreeOrderChannel(cocos2d::CCArray*);
 	TodoReturn getNextFreeSFXGroupID(cocos2d::CCArray*);
@@ -13276,7 +13276,7 @@ class SetGroupIDLayer : FLAlertLayer, TextInputDelegate {
 	void callRemoveFromGroup(float);
 	TodoReturn createTextInput(cocos2d::CCPoint, int, int, gd::string, float, int);
 	TodoReturn determineStartValues();
-	bool init(GameObject* obj, cocos2d::CCArray* objs) = win 0x3cde60;
+	bool init(GameObject* obj, cocos2d::CCArray* objs) = win 0x3cde60, m1 0x2a31bc, imac 0x311790;
 	void onAddGroup(cocos2d::CCObject* sender);
 	void onAddGroupParent(cocos2d::CCObject* sender);
 	void onAnim(cocos2d::CCObject* sender);
